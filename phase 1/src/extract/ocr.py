@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Dict, Any, List, Optional, Tuple
 import cv2
 import numpy as np
-from paddleocr import PaddleOCR
+import easyocr
 try:
     import layoutparser as lp
     LAYOUTPARSER_AVAILABLE = True
@@ -44,14 +44,9 @@ class OCRProcessor:
         self.layout_model_name = layout_model
         self.layout_conf_threshold = layout_conf_threshold
         
-        # Initialize PaddleOCR
-        logger.info("Initializing PaddleOCR...")
-        self.ocr = PaddleOCR(
-            use_angle_cls=True,
-            lang=lang,
-            use_gpu=use_gpu,
-            show_log=False
-        )
+        # Initialize EasyOCR
+        logger.info("Initializing EasyOCR...")
+        self.ocr = easyocr.Reader([lang], gpu=use_gpu)
         
         # Initialize LayoutParser if available
         self.layout_model = None
@@ -170,37 +165,41 @@ class OCRProcessor:
         }
     
     def _run_ocr(self, image: np.ndarray) -> List[Dict[str, Any]]:
-        """Run PaddleOCR on image."""
-        result = self.ocr.ocr(image, cls=True)
+        """Run EasyOCR on image."""
+        result = self.ocr.readtext(image)
         
-        if not result or not result[0]:
+        if not result:
             return []
         
         text_blocks = []
         
-        for line in result[0]:
-            # Extract bbox, text, and confidence
-            bbox = line[0]  # 4 points [[x1,y1], [x2,y2], [x3,y3], [x4,y4]]
-            text, conf = line[1]
+        for detection in result:
+            # EasyOCR format: (bbox, text, confidence)
+            bbox = detection[0]  # 4 points [[x1,y1], [x2,y2], [x3,y3], [x4,y4]]
+            text = detection[1]
+            conf = detection[2]
             
             # Skip low confidence results
             if conf < self.conf_threshold:
                 continue
             
             # Convert bbox to simpler format [x_min, y_min, x_max, y_max]
-            x_coords = [point[0] for point in bbox]
-            y_coords = [point[1] for point in bbox]
+            x_coords = [float(point[0]) for point in bbox]
+            y_coords = [float(point[1]) for point in bbox]
             bbox_simple = [
-                min(x_coords),
-                min(y_coords),
-                max(x_coords),
-                max(y_coords)
+                float(min(x_coords)),
+                float(min(y_coords)),
+                float(max(x_coords)),
+                float(max(y_coords))
             ]
+            
+            # Convert bbox_polygon to list of lists with native Python floats
+            bbox_polygon = [[float(point[0]), float(point[1])] for point in bbox]
             
             text_blocks.append({
                 "text": text,
                 "bbox": bbox_simple,
-                "bbox_polygon": bbox,
+                "bbox_polygon": bbox_polygon,
                 "confidence": float(conf)
             })
         

@@ -1,0 +1,205 @@
+{
+  "video_path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/normalized/video.mp4",
+  "total_keyframes": 18,
+  "blur_threshold": 100.0,
+  "keyframes": [
+    {
+      "frame_id": 0,
+      "scene_id": 0,
+      "timestamp_ms": 0,
+      "frame_number": 0,
+      "filename": "frame_00000.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00000.jpg",
+      "blur_score": 2717.348990823134,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 1,
+      "scene_id": 0,
+      "timestamp_ms": 5000,
+      "frame_number": 150,
+      "filename": "frame_00001.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00001.jpg",
+      "blur_score": 2550.034500782225,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 2,
+      "scene_id": 1,
+      "timestamp_ms": 32200,
+      "frame_number": 966,
+      "filename": "frame_00002.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00002.jpg",
+      "blur_score": 2601.1958495810886,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 3,
+      "scene_id": 1,
+      "timestamp_ms": 37233,
+      "frame_number": 1116,
+      "filename": "frame_00003.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00003.jpg",
+      "blur_score": 4056.6299451490618,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 4,
+      "scene_id": 2,
+      "timestamp_ms": 78500,
+      "frame_number": 2355,
+      "filename": "frame_00004.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00004.jpg",
+      "blur_score": 5387.240944940439,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 5,
+      "scene_id": 3,
+      "timestamp_ms": 88500,
+      "frame_number": 2655,
+      "filename": "frame_00005.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00005.jpg",
+      "blur_score": 5498.232781868065,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 6,
+      "scene_id": 4,
+      "timestamp_ms": 90000,
+      "frame_number": 2700,
+      "filename": "frame_00006.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00006.jpg",
+      "blur_score": 4156.729413491085,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 7,
+      "scene_id": 5,
+      "timestamp_ms": 90400,
+      "frame_number": 2712,
+      "filename": "frame_00007.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00007.jpg",
+      "blur_score": 1587.6299122015764,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 8,
+      "scene_id": 6,
+      "timestamp_ms": 97433,
+      "frame_number": 2923,
+      "filename": "frame_00008.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00008.jpg",
+      "blur_score": 1975.0070997691107,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 9,
+      "scene_id": 7,
+      "timestamp_ms": 102400,
+      "frame_number": 3072,
+      "filename": "frame_00009.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00009.jpg",
+      "blur_score": 4015.36894929559,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 10,
+      "scene_id": 8,
+      "timestamp_ms": 110233,
+      "frame_number": 3307,
+      "filename": "frame_00010.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00010.jpg",
+      "blur_score": 4236.428236563148,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 11,
+      "scene_id": 9,
+      "timestamp_ms": 118300,
+      "frame_number": 3549,
+      "filename": "frame_00011.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00011.jpg",
+      "blur_score": 2565.792726779089,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 12,
+      "scene_id": 9,
+      "timestamp_ms": 123333,
+      "frame_number": 3699,
+      "filename": "frame_00012.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00012.jpg",
+      "blur_score": 4143.190289877315,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 13,
+      "scene_id": 9,
+      "timestamp_ms": 143333,
+      "frame_number": 4299,
+      "filename": "frame_00013.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00013.jpg",
+      "blur_score": 3714.8938719148946,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 14,
+      "scene_id": 9,
+      "timestamp_ms": 173333,
+      "frame_number": 5199,
+      "filename": "frame_00014.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00014.jpg",
+      "blur_score": 4024.89121513976,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 15,
+      "scene_id": 10,
+      "timestamp_ms": 173900,
+      "frame_number": 5217,
+      "filename": "frame_00015.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00015.jpg",
+      "blur_score": 4019.7623548252427,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 16,
+      "scene_id": 11,
+      "timestamp_ms": 182100,
+      "frame_number": 5463,
+      "filename": "frame_00016.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00016.jpg",
+      "blur_score": 2578.304551859697,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame_id": 17,
+      "scene_id": 11,
+      "timestamp_ms": 187133,
+      "frame_number": 5613,
+      "filename": "frame_00017.jpg",
+      "path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/keyframes/frame_00017.jpg",
+      "blur_score": 1770.6151128407748,
+      "width": 1280,
+      "height": 720
+    }
+  ]
+}

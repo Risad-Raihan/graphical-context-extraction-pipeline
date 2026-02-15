@@ -1,0 +1,4016 @@
+{
+  "audio_path": "/workspace/phase 1/data/raw/XNQTWZ87K4I/normalized/audio.wav",
+  "model": "large-v3",
+  "segments": [
+    {
+      "start": 660,
+      "end": 6460,
+      "text": "So how do you make a website compliant with GDPR and other international data privacy laws?",
+      "words": [
+        {
+          "word": "So",
+          "start": 660,
+          "end": 1325,
+          "score": 0.935
+        },
+        {
+          "word": "how",
+          "start": 1365,
+          "end": 2150,
+          "score": 0.63
+        },
+        {
+          "word": "do",
+          "start": 2191,
+          "end": 2291,
+          "score": 0.93
+        },
+        {
+          "word": "you",
+          "start": 2332,
+          "end": 2412,
+          "score": 0.628
+        },
+        {
+          "word": "make",
+          "start": 2473,
+          "end": 2593,
+          "score": 0.9
+        },
+        {
+          "word": "a",
+          "start": 2654,
+          "end": 2674,
+          "score": 0.981
+        },
+        {
+          "word": "website",
+          "start": 2734,
+          "end": 3137,
+          "score": 0.794
+        },
+        {
+          "word": "compliant",
+          "start": 3258,
+          "end": 3721,
+          "score": 0.868
+        },
+        {
+          "word": "with",
+          "start": 3761,
+          "end": 3862,
+          "score": 0.883
+        },
+        {
+          "word": "GDPR",
+          "start": 3902,
+          "end": 4567,
+          "score": 0.68
+        },
+        {
+          "word": "and",
+          "start": 4688,
+          "end": 4768,
+          "score": 0.739
+        },
+        {
+          "word": "other",
+          "start": 4909,
+          "end": 5131,
+          "score": 0.558
+        },
+        {
+          "word": "international",
+          "start": 5151,
+          "end": 5856,
+          "score": 0.594
+        },
+        {
+          "word": "data",
+          "start": 5876,
+          "end": 5977,
+          "score": 0.027
+        },
+        {
+          "word": "privacy",
+          "start": 5997,
+          "end": 6339,
+          "score": 0.696
+        },
+        {
+          "word": "laws?",
+          "start": 6359,
+          "end": 6460,
+          "score": 0.384
+        }
+      ]
+    },
+    {
+      "start": 7580,
+      "end": 11220,
+      "text": "Again and again, we've seen the same common mistakes on",
+      "words": [
+        {
+          "word": "Again",
+          "start": 7580,
+          "end": 8308,
+          "score": 0.836
+        },
+        {
+          "word": "and",
+          "start": 8429,
+          "end": 8490,
+          "score": 0.895
+        },
+        {
+          "word": "again,",
+          "start": 8531,
+          "end": 8733,
+          "score": 0.951
+        },
+        {
+          "word": "we've",
+          "start": 8895,
+          "end": 9056,
+          "score": 0.907
+        },
+        {
+          "word": "seen",
+          "start": 9097,
+          "end": 9299,
+          "score": 0.914
+        },
+        {
+          "word": "the",
+          "start": 9360,
+          "end": 9461,
+          "score": 0.886
+        },
+        {
+          "word": "same",
+          "start": 9542,
+          "end": 9825,
+          "score": 0.95
+        },
+        {
+          "word": "common",
+          "start": 10027,
+          "end": 10330,
+          "score": 0.927
+        },
+        {
+          "word": "mistakes",
+          "start": 10371,
+          "end": 10876,
+          "score": 0.908
+        },
+        {
+          "word": "on",
+          "start": 11180,
+          "end": 11220,
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "start": 11200,
+      "end": 14580,
+      "text": "hundreds and thousands of websites.",
+      "words": [
+        {
+          "word": "hundreds",
+          "start": 11200,
+          "end": 13143,
+          "score": 0.773
+        },
+        {
+          "word": "and",
+          "start": 13244,
+          "end": 13325,
+          "score": 0.727
+        },
+        {
+          "word": "thousands",
+          "start": 13406,
+          "end": 13953,
+          "score": 0.934
+        },
+        {
+          "word": "of",
+          "start": 14256,
+          "end": 14337,
+          "score": 0.996
+        },
+        {
+          "word": "websites.",
+          "start": 14398,
+          "end": 14580,
+          "score": 0.264
+        }
+      ]
+    },
+    {
+      "start": 14760,
+      "end": 19980,
+      "text": "So I want to go through three very common mistakes in this video to make sure that you don't do the same mistakes.",
+      "words": [
+        {
+          "word": "So",
+          "start": 14760,
+          "end": 15082,
+          "score": 0.878
+        },
+        {
+          "word": "I",
+          "start": 15163,
+          "end": 15244,
+          "score": 0.625
+        },
+        {
+          "word": "want",
+          "start": 15264,
+          "end": 15344,
+          "score": 0.355
+        },
+        {
+          "word": "to",
+          "start": 15365,
+          "end": 15405,
+          "score": 0.186
+        },
+        {
+          "word": "go",
+          "start": 15425,
+          "end": 15566,
+          "score": 0.94
+        },
+        {
+          "word": "through",
+          "start": 15627,
+          "end": 15828,
+          "score": 0.885
+        },
+        {
+          "word": "three",
+          "start": 15869,
+          "end": 16171,
+          "score": 0.888
+        },
+        {
+          "word": "very",
+          "start": 16352,
+          "end": 16614,
+          "score": 0.878
+        },
+        {
+          "word": "common",
+          "start": 16675,
+          "end": 16937,
+          "score": 0.878
+        },
+        {
+          "word": "mistakes",
+          "start": 16957,
+          "end": 17279,
+          "score": 0.816
+        },
+        {
+          "word": "in",
+          "start": 17320,
+          "end": 17360,
+          "score": 0.51
+        },
+        {
+          "word": "this",
+          "start": 17400,
+          "end": 17582,
+          "score": 0.482
+        },
+        {
+          "word": "video",
+          "start": 17602,
+          "end": 17924,
+          "score": 0.871
+        },
+        {
+          "word": "to",
+          "start": 18348,
+          "end": 18428,
+          "score": 0.927
+        },
+        {
+          "word": "make",
+          "start": 18489,
+          "end": 18610,
+          "score": 0.984
+        },
+        {
+          "word": "sure",
+          "start": 18670,
+          "end": 18811,
+          "score": 0.825
+        },
+        {
+          "word": "that",
+          "start": 18851,
+          "end": 18972,
+          "score": 0.95
+        },
+        {
+          "word": "you",
+          "start": 19013,
+          "end": 19154,
+          "score": 0.987
+        },
+        {
+          "word": "don't",
+          "start": 19214,
+          "end": 19436,
+          "score": 0.867
+        },
+        {
+          "word": "do",
+          "start": 19476,
+          "end": 19577,
+          "score": 0.988
+        },
+        {
+          "word": "the",
+          "start": 19617,
+          "end": 19678,
+          "score": 0.388
+        },
+        {
+          "word": "same",
+          "start": 19698,
+          "end": 19779,
+          "score": 0.0
+        },
+        {
+          "word": "mistakes.",
+          "start": 19799,
+          "end": 19980,
+          "score": 0.14
+        }
+      ]
+    },
+    {
+      "start": 20480,
+      "end": 27800,
+      "text": "So one of them is that do you have a cookie banner which blocks cookies before you have explicit consent?",
+      "words": [
+        {
+          "word": "So",
+          "start": 20480,
+          "end": 21365,
+          "score": 0.859
+        },
+        {
+          "word": "one",
+          "start": 21405,
+          "end": 21968,
+          "score": 0.443
+        },
+        {
+          "word": "of",
+          "start": 22008,
+          "end": 22049,
+          "score": 1.0
+        },
+        {
+          "word": "them",
+          "start": 22089,
+          "end": 22209,
+          "score": 0.988
+        },
+        {
+          "word": "is",
+          "start": 22290,
+          "end": 22370,
+          "score": 0.898
+        },
+        {
+          "word": "that",
+          "start": 22431,
+          "end": 22571,
+          "score": 0.841
+        },
+        {
+          "word": "do",
+          "start": 22833,
+          "end": 22974,
+          "score": 0.949
+        },
+        {
+          "word": "you",
+          "start": 23014,
+          "end": 23114,
+          "score": 0.831
+        },
+        {
+          "word": "have",
+          "start": 23155,
+          "end": 23275,
+          "score": 0.842
+        },
+        {
+          "word": "a",
+          "start": 23316,
+          "end": 23336,
+          "score": 0.509
+        },
+        {
+          "word": "cookie",
+          "start": 23416,
+          "end": 23678,
+          "score": 0.617
+        },
+        {
+          "word": "banner",
+          "start": 23718,
+          "end": 23959,
+          "score": 0.868
+        },
+        {
+          "word": "which",
+          "start": 23999,
+          "end": 24422,
+          "score": 0.864
+        },
+        {
+          "word": "blocks",
+          "start": 24522,
+          "end": 24824,
+          "score": 0.857
+        },
+        {
+          "word": "cookies",
+          "start": 24844,
+          "end": 25246,
+          "score": 0.755
+        },
+        {
+          "word": "before",
+          "start": 25467,
+          "end": 26030,
+          "score": 0.936
+        },
+        {
+          "word": "you",
+          "start": 26051,
+          "end": 26111,
+          "score": 0.332
+        },
+        {
+          "word": "have",
+          "start": 26473,
+          "end": 26674,
+          "score": 0.924
+        },
+        {
+          "word": "explicit",
+          "start": 26714,
+          "end": 27559,
+          "score": 0.839
+        },
+        {
+          "word": "consent?",
+          "start": 27639,
+          "end": 27800,
+          "score": 0.117
+        }
+      ]
+    },
+    {
+      "start": 27780,
+      "end": 30898,
+      "text": "Okay, I want to show you how it can be done.",
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 27780,
+          "end": 28001,
+          "score": 0.459
+        },
+        {
+          "word": "I",
+          "start": 28585,
+          "end": 28605,
+          "score": 0.993
+        },
+        {
+          "word": "want",
+          "start": 29047,
+          "end": 29208,
+          "score": 0.346
+        },
+        {
+          "word": "to",
+          "start": 29228,
+          "end": 29268,
+          "score": 0.4
+        },
+        {
+          "word": "show",
+          "start": 29309,
+          "end": 29449,
+          "score": 0.994
+        },
+        {
+          "word": "you",
+          "start": 29490,
+          "end": 29570,
+          "score": 0.87
+        },
+        {
+          "word": "how",
+          "start": 29631,
+          "end": 29771,
+          "score": 0.983
+        },
+        {
+          "word": "it",
+          "start": 29812,
+          "end": 29852,
+          "score": 0.537
+        },
+        {
+          "word": "can",
+          "start": 30435,
+          "end": 30576,
+          "score": 0.965
+        },
+        {
+          "word": "be",
+          "start": 30616,
+          "end": 30697,
+          "score": 0.988
+        },
+        {
+          "word": "done.",
+          "start": 30717,
+          "end": 30898,
+          "score": 0.757
+        }
+      ]
+    },
+    {
+      "start": 31622,
+      "end": 34840,
+      "text": "So if you take a look on on this website right here,",
+      "words": [
+        {
+          "word": "So",
+          "start": 31622,
+          "end": 31823,
+          "score": 0.983
+        },
+        {
+          "word": "if",
+          "start": 31984,
+          "end": 32024,
+          "score": 0.952
+        },
+        {
+          "word": "you",
+          "start": 32064,
+          "end": 32185,
+          "score": 0.977
+        },
+        {
+          "word": "take",
+          "start": 32225,
+          "end": 32406,
+          "score": 0.975
+        },
+        {
+          "word": "a",
+          "start": 32447,
+          "end": 32467,
+          "score": 0.897
+        },
+        {
+          "word": "look",
+          "start": 32506,
+          "end": 32708,
+          "score": 0.952
+        },
+        {
+          "word": "on",
+          "start": 33070,
+          "end": 33271,
+          "score": 0.904
+        },
+        {
+          "word": "on",
+          "start": 33774,
+          "end": 33834,
+          "score": 0.968
+        },
+        {
+          "word": "this",
+          "start": 33875,
+          "end": 34036,
+          "score": 0.919
+        },
+        {
+          "word": "website",
+          "start": 34116,
+          "end": 34498,
+          "score": 0.881
+        },
+        {
+          "word": "right",
+          "start": 34559,
+          "end": 34719,
+          "score": 0.864
+        },
+        {
+          "word": "here,",
+          "start": 34740,
+          "end": 34840,
+          "score": 0.387
+        }
+      ]
+    },
+    {
+      "start": 35600,
+      "end": 40400,
+      "text": "we have a cookie banner which communicates a privacy notice and",
+      "words": [
+        {
+          "word": "we",
+          "start": 35600,
+          "end": 36124,
+          "score": 0.804
+        },
+        {
+          "word": "have",
+          "start": 36528,
+          "end": 36729,
+          "score": 0.875
+        },
+        {
+          "word": "a",
+          "start": 36750,
+          "end": 36770,
+          "score": 0.999
+        },
+        {
+          "word": "cookie",
+          "start": 37113,
+          "end": 37375,
+          "score": 0.548
+        },
+        {
+          "word": "banner",
+          "start": 37395,
+          "end": 37677,
+          "score": 0.957
+        },
+        {
+          "word": "which",
+          "start": 37718,
+          "end": 38081,
+          "score": 0.92
+        },
+        {
+          "word": "communicates",
+          "start": 38343,
+          "end": 38867,
+          "score": 0.853
+        },
+        {
+          "word": "a",
+          "start": 38928,
+          "end": 38988,
+          "score": 0.293
+        },
+        {
+          "word": "privacy",
+          "start": 39009,
+          "end": 39412,
+          "score": 0.709
+        },
+        {
+          "word": "notice",
+          "start": 39452,
+          "end": 39876,
+          "score": 0.905
+        },
+        {
+          "word": "and",
+          "start": 39916,
+          "end": 40400,
+          "score": 0.636
+        }
+      ]
+    },
+    {
+      "start": 40380,
+      "end": 47760,
+      "text": "also you have to embed the ability to block cookies before a user presses accept.",
+      "words": [
+        {
+          "word": "also",
+          "start": 40380,
+          "end": 41084,
+          "score": 0.858
+        },
+        {
+          "word": "you",
+          "start": 41124,
+          "end": 41667,
+          "score": 0.598
+        },
+        {
+          "word": "have",
+          "start": 41808,
+          "end": 42130,
+          "score": 0.906
+        },
+        {
+          "word": "to",
+          "start": 42270,
+          "end": 42431,
+          "score": 0.963
+        },
+        {
+          "word": "embed",
+          "start": 42632,
+          "end": 43055,
+          "score": 0.915
+        },
+        {
+          "word": "the",
+          "start": 43195,
+          "end": 43316,
+          "score": 0.918
+        },
+        {
+          "word": "ability",
+          "start": 43417,
+          "end": 43899,
+          "score": 0.993
+        },
+        {
+          "word": "to",
+          "start": 43959,
+          "end": 44040,
+          "score": 0.802
+        },
+        {
+          "word": "block",
+          "start": 44140,
+          "end": 44422,
+          "score": 0.9
+        },
+        {
+          "word": "cookies",
+          "start": 44442,
+          "end": 44804,
+          "score": 0.829
+        },
+        {
+          "word": "before",
+          "start": 45206,
+          "end": 46352,
+          "score": 0.901
+        },
+        {
+          "word": "a",
+          "start": 46373,
+          "end": 46393,
+          "score": 0.996
+        },
+        {
+          "word": "user",
+          "start": 46775,
+          "end": 47137,
+          "score": 0.747
+        },
+        {
+          "word": "presses",
+          "start": 47157,
+          "end": 47519,
+          "score": 0.837
+        },
+        {
+          "word": "accept.",
+          "start": 47619,
+          "end": 47760,
+          "score": 0.173
+        }
+      ]
+    },
+    {
+      "start": 48020,
+      "end": 51678,
+      "text": "Okay, so that's something your solution should be able to do.",
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 48020,
+          "end": 48663,
+          "score": 0.565
+        },
+        {
+          "word": "so",
+          "start": 49085,
+          "end": 49206,
+          "score": 0.982
+        },
+        {
+          "word": "that's",
+          "start": 49246,
+          "end": 49387,
+          "score": 0.66
+        },
+        {
+          "word": "something",
+          "start": 49447,
+          "end": 49809,
+          "score": 0.798
+        },
+        {
+          "word": "your",
+          "start": 49909,
+          "end": 50231,
+          "score": 0.853
+        },
+        {
+          "word": "solution",
+          "start": 50291,
+          "end": 50813,
+          "score": 0.855
+        },
+        {
+          "word": "should",
+          "start": 50854,
+          "end": 51034,
+          "score": 0.805
+        },
+        {
+          "word": "be",
+          "start": 51075,
+          "end": 51135,
+          "score": 0.958
+        },
+        {
+          "word": "able",
+          "start": 51195,
+          "end": 51336,
+          "score": 0.924
+        },
+        {
+          "word": "to",
+          "start": 51376,
+          "end": 51436,
+          "score": 0.887
+        },
+        {
+          "word": "do.",
+          "start": 51497,
+          "end": 51678,
+          "score": 0.929
+        }
+      ]
+    },
+    {
+      "start": 52140,
+      "end": 56360,
+      "text": "Basically be able to block cookies before you have received explicit consent.",
+      "words": [
+        {
+          "word": "Basically",
+          "start": 52140,
+          "end": 52602,
+          "score": 0.822
+        },
+        {
+          "word": "be",
+          "start": 52662,
+          "end": 52743,
+          "score": 0.922
+        },
+        {
+          "word": "able",
+          "start": 52843,
+          "end": 53004,
+          "score": 0.884
+        },
+        {
+          "word": "to",
+          "start": 53044,
+          "end": 53104,
+          "score": 0.862
+        },
+        {
+          "word": "block",
+          "start": 53185,
+          "end": 53406,
+          "score": 0.902
+        },
+        {
+          "word": "cookies",
+          "start": 53466,
+          "end": 53848,
+          "score": 0.742
+        },
+        {
+          "word": "before",
+          "start": 54149,
+          "end": 54511,
+          "score": 0.807
+        },
+        {
+          "word": "you",
+          "start": 54571,
+          "end": 54853,
+          "score": 0.854
+        },
+        {
+          "word": "have",
+          "start": 54893,
+          "end": 55014,
+          "score": 0.866
+        },
+        {
+          "word": "received",
+          "start": 55054,
+          "end": 55516,
+          "score": 0.856
+        },
+        {
+          "word": "explicit",
+          "start": 55556,
+          "end": 56139,
+          "score": 0.899
+        },
+        {
+          "word": "consent.",
+          "start": 56179,
+          "end": 56360,
+          "score": 0.306
+        }
+      ]
+    },
+    {
+      "start": 56560,
+      "end": 57022,
+      "text": "Okay.",
+      "words": [
+        {
+          "word": "Okay.",
+          "start": 56560,
+          "end": 57022,
+          "score": 0.376
+        }
+      ]
+    },
+    {
+      "start": 57780,
+      "end": 63660,
+      "text": "Another best practice you want to have included in your banner is not only the ability to accept but also",
+      "words": [
+        {
+          "word": "Another",
+          "start": 57780,
+          "end": 58183,
+          "score": 0.485
+        },
+        {
+          "word": "best",
+          "start": 58304,
+          "end": 58505,
+          "score": 0.897
+        },
+        {
+          "word": "practice",
+          "start": 58585,
+          "end": 59008,
+          "score": 0.815
+        },
+        {
+          "word": "you",
+          "start": 59029,
+          "end": 59129,
+          "score": 0.986
+        },
+        {
+          "word": "want",
+          "start": 59169,
+          "end": 59270,
+          "score": 0.537
+        },
+        {
+          "word": "to",
+          "start": 59290,
+          "end": 59331,
+          "score": 0.498
+        },
+        {
+          "word": "have",
+          "start": 59371,
+          "end": 59552,
+          "score": 0.958
+        },
+        {
+          "word": "included",
+          "start": 59653,
+          "end": 60015,
+          "score": 0.973
+        },
+        {
+          "word": "in",
+          "start": 60056,
+          "end": 60096,
+          "score": 0.892
+        },
+        {
+          "word": "your",
+          "start": 60156,
+          "end": 60277,
+          "score": 0.99
+        },
+        {
+          "word": "banner",
+          "start": 60317,
+          "end": 60599,
+          "score": 0.993
+        },
+        {
+          "word": "is",
+          "start": 60720,
+          "end": 60821,
+          "score": 0.862
+        },
+        {
+          "word": "not",
+          "start": 61264,
+          "end": 61405,
+          "score": 0.987
+        },
+        {
+          "word": "only",
+          "start": 61505,
+          "end": 61707,
+          "score": 0.945
+        },
+        {
+          "word": "the",
+          "start": 61767,
+          "end": 61868,
+          "score": 0.984
+        },
+        {
+          "word": "ability",
+          "start": 61948,
+          "end": 62412,
+          "score": 0.916
+        },
+        {
+          "word": "to",
+          "start": 62472,
+          "end": 62573,
+          "score": 0.995
+        },
+        {
+          "word": "accept",
+          "start": 62694,
+          "end": 63016,
+          "score": 0.911
+        },
+        {
+          "word": "but",
+          "start": 63318,
+          "end": 63418,
+          "score": 0.932
+        },
+        {
+          "word": "also",
+          "start": 63459,
+          "end": 63660,
+          "score": 0.424
+        }
+      ]
+    },
+    {
+      "start": 63640,
+      "end": 66160,
+      "text": "decline the cookie banner as you see right here.",
+      "words": [
+        {
+          "word": "decline",
+          "start": 63640,
+          "end": 64635,
+          "score": 0.855
+        },
+        {
+          "word": "the",
+          "start": 64757,
+          "end": 64860,
+          "score": 0.768
+        },
+        {
+          "word": "cookie",
+          "start": 64900,
+          "end": 65185,
+          "score": 0.583
+        },
+        {
+          "word": "banner",
+          "start": 65205,
+          "end": 65468,
+          "score": 0.801
+        },
+        {
+          "word": "as",
+          "start": 65530,
+          "end": 65612,
+          "score": 0.808
+        },
+        {
+          "word": "you",
+          "start": 65632,
+          "end": 65754,
+          "score": 0.878
+        },
+        {
+          "word": "see",
+          "start": 65774,
+          "end": 65896,
+          "score": 0.981
+        },
+        {
+          "word": "right",
+          "start": 65937,
+          "end": 66038,
+          "score": 0.009
+        },
+        {
+          "word": "here.",
+          "start": 66059,
+          "end": 66160,
+          "score": 0.178
+        }
+      ]
+    },
+    {
+      "start": 66820,
+      "end": 74820,
+      "text": "In this specific case right here, we have chosen an approach of being transparent with the data we collect.",
+      "words": [
+        {
+          "word": "In",
+          "start": 66820,
+          "end": 67524,
+          "score": 0.9
+        },
+        {
+          "word": "this",
+          "start": 67564,
+          "end": 67704,
+          "score": 0.755
+        },
+        {
+          "word": "specific",
+          "start": 67725,
+          "end": 68227,
+          "score": 0.96
+        },
+        {
+          "word": "case",
+          "start": 68328,
+          "end": 68569,
+          "score": 0.966
+        },
+        {
+          "word": "right",
+          "start": 68689,
+          "end": 68890,
+          "score": 0.321
+        },
+        {
+          "word": "here,",
+          "start": 68931,
+          "end": 69152,
+          "score": 0.833
+        },
+        {
+          "word": "we",
+          "start": 69333,
+          "end": 69433,
+          "score": 0.979
+        },
+        {
+          "word": "have",
+          "start": 69473,
+          "end": 69574,
+          "score": 0.935
+        },
+        {
+          "word": "chosen",
+          "start": 69614,
+          "end": 69956,
+          "score": 0.942
+        },
+        {
+          "word": "an",
+          "start": 69976,
+          "end": 70016,
+          "score": 0.498
+        },
+        {
+          "word": "approach",
+          "start": 70519,
+          "end": 71544,
+          "score": 0.808
+        },
+        {
+          "word": "of",
+          "start": 71966,
+          "end": 72066,
+          "score": 0.734
+        },
+        {
+          "word": "being",
+          "start": 72408,
+          "end": 72609,
+          "score": 0.918
+        },
+        {
+          "word": "transparent",
+          "start": 72689,
+          "end": 73292,
+          "score": 0.85
+        },
+        {
+          "word": "with",
+          "start": 73413,
+          "end": 73574,
+          "score": 0.847
+        },
+        {
+          "word": "the",
+          "start": 73654,
+          "end": 74076,
+          "score": 0.969
+        },
+        {
+          "word": "data",
+          "start": 74237,
+          "end": 74519,
+          "score": 0.903
+        },
+        {
+          "word": "we",
+          "start": 74559,
+          "end": 74639,
+          "score": 0.784
+        },
+        {
+          "word": "collect.",
+          "start": 74659,
+          "end": 74820,
+          "score": 0.005
+        }
+      ]
+    },
+    {
+      "start": 74980,
+      "end": 77759,
+      "text": "So we have what we call a detailed cookie banner.",
+      "words": [
+        {
+          "word": "So",
+          "start": 74980,
+          "end": 75222,
+          "score": 0.934
+        },
+        {
+          "word": "we",
+          "start": 75262,
+          "end": 75785,
+          "score": 0.972
+        },
+        {
+          "word": "have",
+          "start": 75826,
+          "end": 75926,
+          "score": 0.966
+        },
+        {
+          "word": "what",
+          "start": 75987,
+          "end": 76108,
+          "score": 0.988
+        },
+        {
+          "word": "we",
+          "start": 76168,
+          "end": 76289,
+          "score": 0.982
+        },
+        {
+          "word": "call",
+          "start": 76329,
+          "end": 76530,
+          "score": 0.886
+        },
+        {
+          "word": "a",
+          "start": 76550,
+          "end": 76571,
+          "score": 0.97
+        },
+        {
+          "word": "detailed",
+          "start": 76772,
+          "end": 77154,
+          "score": 0.556
+        },
+        {
+          "word": "cookie",
+          "start": 77235,
+          "end": 77457,
+          "score": 0.67
+        },
+        {
+          "word": "banner.",
+          "start": 77477,
+          "end": 77759,
+          "score": 0.852
+        }
+      ]
+    },
+    {
+      "start": 78121,
+      "end": 81000,
+      "text": "So you can click details and you can see what type of",
+      "words": [
+        {
+          "word": "So",
+          "start": 78121,
+          "end": 78322,
+          "score": 0.996
+        },
+        {
+          "word": "you",
+          "start": 78363,
+          "end": 78524,
+          "score": 0.76
+        },
+        {
+          "word": "can",
+          "start": 78564,
+          "end": 78665,
+          "score": 0.972
+        },
+        {
+          "word": "click",
+          "start": 78705,
+          "end": 78866,
+          "score": 0.398
+        },
+        {
+          "word": "details",
+          "start": 78906,
+          "end": 79389,
+          "score": 0.776
+        },
+        {
+          "word": "and",
+          "start": 79510,
+          "end": 79611,
+          "score": 0.963
+        },
+        {
+          "word": "you",
+          "start": 79651,
+          "end": 79732,
+          "score": 0.791
+        },
+        {
+          "word": "can",
+          "start": 79772,
+          "end": 79893,
+          "score": 0.965
+        },
+        {
+          "word": "see",
+          "start": 79933,
+          "end": 80074,
+          "score": 0.986
+        },
+        {
+          "word": "what",
+          "start": 80154,
+          "end": 80295,
+          "score": 0.882
+        },
+        {
+          "word": "type",
+          "start": 80396,
+          "end": 80698,
+          "score": 0.884
+        },
+        {
+          "word": "of",
+          "start": 80960,
+          "end": 81000,
+          "score": 0.326
+        }
+      ]
+    },
+    {
+      "start": 81540,
+      "end": 87460,
+      "text": "cookies and plugins we use on the website and your ability to change",
+      "words": [
+        {
+          "word": "cookies",
+          "start": 81540,
+          "end": 82184,
+          "score": 0.768
+        },
+        {
+          "word": "and",
+          "start": 82970,
+          "end": 83695,
+          "score": 0.525
+        },
+        {
+          "word": "plugins",
+          "start": 83715,
+          "end": 84158,
+          "score": 0.804
+        },
+        {
+          "word": "we",
+          "start": 84460,
+          "end": 84722,
+          "score": 0.972
+        },
+        {
+          "word": "use",
+          "start": 85044,
+          "end": 85225,
+          "score": 0.904
+        },
+        {
+          "word": "on",
+          "start": 85265,
+          "end": 85346,
+          "score": 0.576
+        },
+        {
+          "word": "the",
+          "start": 85366,
+          "end": 85426,
+          "score": 0.175
+        },
+        {
+          "word": "website",
+          "start": 85446,
+          "end": 85910,
+          "score": 0.874
+        },
+        {
+          "word": "and",
+          "start": 86252,
+          "end": 86332,
+          "score": 0.816
+        },
+        {
+          "word": "your",
+          "start": 86373,
+          "end": 86554,
+          "score": 0.89
+        },
+        {
+          "word": "ability",
+          "start": 86594,
+          "end": 87037,
+          "score": 0.916
+        },
+        {
+          "word": "to",
+          "start": 87078,
+          "end": 87158,
+          "score": 0.512
+        },
+        {
+          "word": "change",
+          "start": 87279,
+          "end": 87460,
+          "score": 0.275
+        }
+      ]
+    },
+    {
+      "start": 87780,
+      "end": 89161,
+      "text": "the settings right here.",
+      "words": [
+        {
+          "word": "the",
+          "start": 87780,
+          "end": 88151,
+          "score": 0.472
+        },
+        {
+          "word": "settings",
+          "start": 88542,
+          "end": 88872,
+          "score": 0.748
+        },
+        {
+          "word": "right",
+          "start": 88913,
+          "end": 89016,
+          "score": 0.0
+        },
+        {
+          "word": "here.",
+          "start": 89037,
+          "end": 89161,
+          "score": 0.267
+        }
+      ]
+    },
+    {
+      "start": 89560,
+      "end": 96200,
+      "text": "Other ways you can make it look and in style to make it fit in a beautiful way to your website is like this.",
+      "words": [
+        {
+          "word": "Other",
+          "start": 89560,
+          "end": 90264,
+          "score": 0.617
+        },
+        {
+          "word": "ways",
+          "start": 90284,
+          "end": 90586,
+          "score": 0.859
+        },
+        {
+          "word": "you",
+          "start": 90787,
+          "end": 90888,
+          "score": 0.944
+        },
+        {
+          "word": "can",
+          "start": 90928,
+          "end": 91049,
+          "score": 0.979
+        },
+        {
+          "word": "make",
+          "start": 91089,
+          "end": 91230,
+          "score": 0.782
+        },
+        {
+          "word": "it",
+          "start": 91270,
+          "end": 91331,
+          "score": 0.639
+        },
+        {
+          "word": "look",
+          "start": 91391,
+          "end": 91633,
+          "score": 0.89
+        },
+        {
+          "word": "and",
+          "start": 91854,
+          "end": 91954,
+          "score": 0.834
+        },
+        {
+          "word": "in",
+          "start": 92095,
+          "end": 92196,
+          "score": 0.894
+        },
+        {
+          "word": "style",
+          "start": 92276,
+          "end": 92840,
+          "score": 0.876
+        },
+        {
+          "word": "to",
+          "start": 92940,
+          "end": 93041,
+          "score": 0.883
+        },
+        {
+          "word": "make",
+          "start": 93081,
+          "end": 93222,
+          "score": 0.95
+        },
+        {
+          "word": "it",
+          "start": 93262,
+          "end": 93303,
+          "score": 0.945
+        },
+        {
+          "word": "fit",
+          "start": 93383,
+          "end": 93625,
+          "score": 0.901
+        },
+        {
+          "word": "in",
+          "start": 93826,
+          "end": 93866,
+          "score": 0.95
+        },
+        {
+          "word": "a",
+          "start": 93906,
+          "end": 93926,
+          "score": 0.989
+        },
+        {
+          "word": "beautiful",
+          "start": 93967,
+          "end": 94309,
+          "score": 0.93
+        },
+        {
+          "word": "way",
+          "start": 94369,
+          "end": 94490,
+          "score": 0.802
+        },
+        {
+          "word": "to",
+          "start": 94510,
+          "end": 94550,
+          "score": 0.743
+        },
+        {
+          "word": "your",
+          "start": 94590,
+          "end": 94711,
+          "score": 0.89
+        },
+        {
+          "word": "website",
+          "start": 94751,
+          "end": 95134,
+          "score": 0.819
+        },
+        {
+          "word": "is",
+          "start": 95355,
+          "end": 95476,
+          "score": 0.984
+        },
+        {
+          "word": "like",
+          "start": 95878,
+          "end": 96059,
+          "score": 0.855
+        },
+        {
+          "word": "this.",
+          "start": 96100,
+          "end": 96200,
+          "score": 0.382
+        }
+      ]
+    },
+    {
+      "start": 96620,
+      "end": 101620,
+      "text": "And here's another beautiful way to make it stylish and make it fit your website.",
+      "words": [
+        {
+          "word": "And",
+          "start": 96620,
+          "end": 97285,
+          "score": 0.655
+        },
+        {
+          "word": "here's",
+          "start": 97588,
+          "end": 98213,
+          "score": 0.615
+        },
+        {
+          "word": "another",
+          "start": 98556,
+          "end": 98858,
+          "score": 0.48
+        },
+        {
+          "word": "beautiful",
+          "start": 98898,
+          "end": 99281,
+          "score": 0.835
+        },
+        {
+          "word": "way",
+          "start": 99342,
+          "end": 99543,
+          "score": 0.967
+        },
+        {
+          "word": "to",
+          "start": 99604,
+          "end": 99725,
+          "score": 0.914
+        },
+        {
+          "word": "make",
+          "start": 99765,
+          "end": 99886,
+          "score": 0.938
+        },
+        {
+          "word": "it",
+          "start": 99947,
+          "end": 100027,
+          "score": 0.906
+        },
+        {
+          "word": "stylish",
+          "start": 100088,
+          "end": 100572,
+          "score": 0.669
+        },
+        {
+          "word": "and",
+          "start": 100612,
+          "end": 100673,
+          "score": 0.305
+        },
+        {
+          "word": "make",
+          "start": 100874,
+          "end": 101015,
+          "score": 0.893
+        },
+        {
+          "word": "it",
+          "start": 101056,
+          "end": 101116,
+          "score": 0.901
+        },
+        {
+          "word": "fit",
+          "start": 101136,
+          "end": 101298,
+          "score": 0.98
+        },
+        {
+          "word": "your",
+          "start": 101338,
+          "end": 101439,
+          "score": 0.862
+        },
+        {
+          "word": "website.",
+          "start": 101459,
+          "end": 101620,
+          "score": 0.105
+        }
+      ]
+    },
+    {
+      "start": 101800,
+      "end": 106200,
+      "text": "So you have a number of ways to make it look and feel perfect to your own website.",
+      "words": [
+        {
+          "word": "So",
+          "start": 101800,
+          "end": 102305,
+          "score": 0.937
+        },
+        {
+          "word": "you",
+          "start": 102325,
+          "end": 102406,
+          "score": 0.53
+        },
+        {
+          "word": "have",
+          "start": 102446,
+          "end": 102527,
+          "score": 0.995
+        },
+        {
+          "word": "a",
+          "start": 102547,
+          "end": 102587,
+          "score": 0.5
+        },
+        {
+          "word": "number",
+          "start": 102688,
+          "end": 102991,
+          "score": 0.856
+        },
+        {
+          "word": "of",
+          "start": 103051,
+          "end": 103092,
+          "score": 1.0
+        },
+        {
+          "word": "ways",
+          "start": 103112,
+          "end": 103455,
+          "score": 0.503
+        },
+        {
+          "word": "to",
+          "start": 103516,
+          "end": 103576,
+          "score": 0.994
+        },
+        {
+          "word": "make",
+          "start": 103617,
+          "end": 103738,
+          "score": 0.954
+        },
+        {
+          "word": "it",
+          "start": 103778,
+          "end": 103818,
+          "score": 0.994
+        },
+        {
+          "word": "look",
+          "start": 103919,
+          "end": 104141,
+          "score": 0.898
+        },
+        {
+          "word": "and",
+          "start": 104222,
+          "end": 104283,
+          "score": 0.983
+        },
+        {
+          "word": "feel",
+          "start": 104363,
+          "end": 104606,
+          "score": 0.743
+        },
+        {
+          "word": "perfect",
+          "start": 104646,
+          "end": 105433,
+          "score": 0.919
+        },
+        {
+          "word": "to",
+          "start": 105595,
+          "end": 105716,
+          "score": 0.979
+        },
+        {
+          "word": "your",
+          "start": 105736,
+          "end": 105857,
+          "score": 0.975
+        },
+        {
+          "word": "own",
+          "start": 105897,
+          "end": 105998,
+          "score": 0.983
+        },
+        {
+          "word": "website.",
+          "start": 106039,
+          "end": 106200,
+          "score": 0.086
+        }
+      ]
+    },
+    {
+      "start": 106380,
+      "end": 106944,
+      "text": "Okay.",
+      "words": [
+        {
+          "word": "Okay.",
+          "start": 106380,
+          "end": 106944,
+          "score": 0.485
+        }
+      ]
+    },
+    {
+      "start": 107529,
+      "end": 111520,
+      "text": "Now that's one of the areas we want to walk through in terms of the cookie banner.",
+      "words": [
+        {
+          "word": "Now",
+          "start": 107529,
+          "end": 107710,
+          "score": 0.918
+        },
+        {
+          "word": "that's",
+          "start": 108013,
+          "end": 108255,
+          "score": 0.792
+        },
+        {
+          "word": "one",
+          "start": 108759,
+          "end": 108859,
+          "score": 0.731
+        },
+        {
+          "word": "of",
+          "start": 108900,
+          "end": 108940,
+          "score": 0.934
+        },
+        {
+          "word": "the",
+          "start": 109041,
+          "end": 109142,
+          "score": 0.949
+        },
+        {
+          "word": "areas",
+          "start": 109283,
+          "end": 109605,
+          "score": 0.626
+        },
+        {
+          "word": "we",
+          "start": 109686,
+          "end": 109726,
+          "score": 0.006
+        },
+        {
+          "word": "want",
+          "start": 109746,
+          "end": 109847,
+          "score": 0.492
+        },
+        {
+          "word": "to",
+          "start": 109867,
+          "end": 109908,
+          "score": 0.399
+        },
+        {
+          "word": "walk",
+          "start": 109968,
+          "end": 110190,
+          "score": 0.928
+        },
+        {
+          "word": "through",
+          "start": 110250,
+          "end": 110492,
+          "score": 0.919
+        },
+        {
+          "word": "in",
+          "start": 110512,
+          "end": 110694,
+          "score": 0.78
+        },
+        {
+          "word": "terms",
+          "start": 110734,
+          "end": 110956,
+          "score": 0.751
+        },
+        {
+          "word": "of",
+          "start": 111016,
+          "end": 111057,
+          "score": 0.992
+        },
+        {
+          "word": "the",
+          "start": 111097,
+          "end": 111177,
+          "score": 0.738
+        },
+        {
+          "word": "cookie",
+          "start": 111218,
+          "end": 111359,
+          "score": 0.094
+        },
+        {
+          "word": "banner.",
+          "start": 111379,
+          "end": 111520,
+          "score": 0.271
+        }
+      ]
+    },
+    {
+      "start": 112040,
+      "end": 116380,
+      "text": "A second part is have you made it easy to withdraw consent?",
+      "words": [
+        {
+          "word": "A",
+          "start": 112040,
+          "end": 112686,
+          "score": 0.878
+        },
+        {
+          "word": "second",
+          "start": 112706,
+          "end": 112989,
+          "score": 0.992
+        },
+        {
+          "word": "part",
+          "start": 113029,
+          "end": 113251,
+          "score": 0.704
+        },
+        {
+          "word": "is",
+          "start": 113271,
+          "end": 113393,
+          "score": 0.82
+        },
+        {
+          "word": "have",
+          "start": 113857,
+          "end": 114139,
+          "score": 0.833
+        },
+        {
+          "word": "you",
+          "start": 114160,
+          "end": 114261,
+          "score": 0.932
+        },
+        {
+          "word": "made",
+          "start": 114301,
+          "end": 114462,
+          "score": 0.968
+        },
+        {
+          "word": "it",
+          "start": 114503,
+          "end": 114543,
+          "score": 0.994
+        },
+        {
+          "word": "easy",
+          "start": 114705,
+          "end": 115028,
+          "score": 0.873
+        },
+        {
+          "word": "to",
+          "start": 115209,
+          "end": 115351,
+          "score": 0.979
+        },
+        {
+          "word": "withdraw",
+          "start": 115391,
+          "end": 116057,
+          "score": 0.853
+        },
+        {
+          "word": "consent?",
+          "start": 116219,
+          "end": 116380,
+          "score": 0.147
+        }
+      ]
+    },
+    {
+      "start": 116920,
+      "end": 117422,
+      "text": "Okay.",
+      "words": [
+        {
+          "word": "Okay.",
+          "start": 116920,
+          "end": 117422,
+          "score": 0.246
+        }
+      ]
+    },
+    {
+      "start": 118020,
+      "end": 121260,
+      "text": "So from a technical aspect, this is quite complicated.",
+      "words": [
+        {
+          "word": "So",
+          "start": 118020,
+          "end": 118709,
+          "score": 0.978
+        },
+        {
+          "word": "from",
+          "start": 118749,
+          "end": 119053,
+          "score": 0.643
+        },
+        {
+          "word": "a",
+          "start": 119093,
+          "end": 119134,
+          "score": 0.496
+        },
+        {
+          "word": "technical",
+          "start": 119195,
+          "end": 119640,
+          "score": 0.856
+        },
+        {
+          "word": "aspect,",
+          "start": 119782,
+          "end": 120106,
+          "score": 0.857
+        },
+        {
+          "word": "this",
+          "start": 120126,
+          "end": 120248,
+          "score": 0.869
+        },
+        {
+          "word": "is",
+          "start": 120329,
+          "end": 120369,
+          "score": 0.89
+        },
+        {
+          "word": "quite",
+          "start": 120511,
+          "end": 120713,
+          "score": 0.901
+        },
+        {
+          "word": "complicated.",
+          "start": 120997,
+          "end": 121260,
+          "score": 0.122
+        }
+      ]
+    },
+    {
+      "start": 121520,
+      "end": 126460,
+      "text": "So in this case, let's say that I have now consented for the cookies and trackers.",
+      "words": [
+        {
+          "word": "So",
+          "start": 121520,
+          "end": 122085,
+          "score": 0.934
+        },
+        {
+          "word": "in",
+          "start": 122226,
+          "end": 122286,
+          "score": 0.952
+        },
+        {
+          "word": "this",
+          "start": 122327,
+          "end": 122468,
+          "score": 0.968
+        },
+        {
+          "word": "case,",
+          "start": 122528,
+          "end": 122790,
+          "score": 0.888
+        },
+        {
+          "word": "let's",
+          "start": 123113,
+          "end": 123355,
+          "score": 0.806
+        },
+        {
+          "word": "say",
+          "start": 123436,
+          "end": 123617,
+          "score": 0.954
+        },
+        {
+          "word": "that",
+          "start": 123698,
+          "end": 123819,
+          "score": 0.961
+        },
+        {
+          "word": "I",
+          "start": 123920,
+          "end": 123980,
+          "score": 0.813
+        },
+        {
+          "word": "have",
+          "start": 124000,
+          "end": 124121,
+          "score": 0.861
+        },
+        {
+          "word": "now",
+          "start": 124182,
+          "end": 124383,
+          "score": 0.994
+        },
+        {
+          "word": "consented",
+          "start": 124605,
+          "end": 125089,
+          "score": 0.959
+        },
+        {
+          "word": "for",
+          "start": 125129,
+          "end": 125573,
+          "score": 0.48
+        },
+        {
+          "word": "the",
+          "start": 125593,
+          "end": 125674,
+          "score": 0.216
+        },
+        {
+          "word": "cookies",
+          "start": 125694,
+          "end": 126017,
+          "score": 0.538
+        },
+        {
+          "word": "and",
+          "start": 126057,
+          "end": 126117,
+          "score": 0.762
+        },
+        {
+          "word": "trackers.",
+          "start": 126158,
+          "end": 126460,
+          "score": 0.548
+        }
+      ]
+    },
+    {
+      "start": 126560,
+      "end": 131420,
+      "text": "Now, how do you actually change the consent?",
+      "words": [
+        {
+          "word": "Now,",
+          "start": 126560,
+          "end": 127084,
+          "score": 0.98
+        },
+        {
+          "word": "how",
+          "start": 127488,
+          "end": 127730,
+          "score": 0.987
+        },
+        {
+          "word": "do",
+          "start": 127770,
+          "end": 127891,
+          "score": 0.987
+        },
+        {
+          "word": "you",
+          "start": 127911,
+          "end": 128032,
+          "score": 0.885
+        },
+        {
+          "word": "actually",
+          "start": 128072,
+          "end": 128758,
+          "score": 0.591
+        },
+        {
+          "word": "change",
+          "start": 130049,
+          "end": 130513,
+          "score": 0.927
+        },
+        {
+          "word": "the",
+          "start": 130573,
+          "end": 130856,
+          "score": 0.838
+        },
+        {
+          "word": "consent?",
+          "start": 131239,
+          "end": 131420,
+          "score": 0.278
+        }
+      ]
+    },
+    {
+      "start": 131780,
+      "end": 138320,
+      "text": "Now, you may have difficulty because of the little widget down here, but we actually have what we call a",
+      "words": [
+        {
+          "word": "Now,",
+          "start": 131780,
+          "end": 132424,
+          "score": 0.934
+        },
+        {
+          "word": "you",
+          "start": 132464,
+          "end": 132726,
+          "score": 0.881
+        },
+        {
+          "word": "may",
+          "start": 132766,
+          "end": 132967,
+          "score": 0.76
+        },
+        {
+          "word": "have",
+          "start": 133028,
+          "end": 133450,
+          "score": 0.674
+        },
+        {
+          "word": "difficulty",
+          "start": 133490,
+          "end": 133913,
+          "score": 0.686
+        },
+        {
+          "word": "because",
+          "start": 134175,
+          "end": 134416,
+          "score": 0.962
+        },
+        {
+          "word": "of",
+          "start": 134456,
+          "end": 134497,
+          "score": 0.986
+        },
+        {
+          "word": "the",
+          "start": 134557,
+          "end": 134658,
+          "score": 0.952
+        },
+        {
+          "word": "little",
+          "start": 134698,
+          "end": 134879,
+          "score": 0.844
+        },
+        {
+          "word": "widget",
+          "start": 134919,
+          "end": 135161,
+          "score": 0.541
+        },
+        {
+          "word": "down",
+          "start": 135181,
+          "end": 135322,
+          "score": 0.912
+        },
+        {
+          "word": "here,",
+          "start": 135362,
+          "end": 135523,
+          "score": 0.894
+        },
+        {
+          "word": "but",
+          "start": 135925,
+          "end": 136066,
+          "score": 0.636
+        },
+        {
+          "word": "we",
+          "start": 136167,
+          "end": 136348,
+          "score": 0.94
+        },
+        {
+          "word": "actually",
+          "start": 136368,
+          "end": 136932,
+          "score": 0.818
+        },
+        {
+          "word": "have",
+          "start": 136972,
+          "end": 137374,
+          "score": 0.82
+        },
+        {
+          "word": "what",
+          "start": 137918,
+          "end": 138038,
+          "score": 0.753
+        },
+        {
+          "word": "we",
+          "start": 138079,
+          "end": 138159,
+          "score": 0.94
+        },
+        {
+          "word": "call",
+          "start": 138179,
+          "end": 138280,
+          "score": 0.497
+        },
+        {
+          "word": "a",
+          "start": 138300,
+          "end": 138320,
+          "score": 0.001
+        }
+      ]
+    },
+    {
+      "start": 138300,
+      "end": 141160,
+      "text": "trust badge, which you can move in different locations on the website.",
+      "words": [
+        {
+          "word": "trust",
+          "start": 138300,
+          "end": 138706,
+          "score": 0.605
+        },
+        {
+          "word": "badge,",
+          "start": 138726,
+          "end": 139030,
+          "score": 0.67
+        },
+        {
+          "word": "which",
+          "start": 139172,
+          "end": 139355,
+          "score": 0.998
+        },
+        {
+          "word": "you",
+          "start": 139395,
+          "end": 139497,
+          "score": 0.97
+        },
+        {
+          "word": "can",
+          "start": 139537,
+          "end": 139679,
+          "score": 0.97
+        },
+        {
+          "word": "move",
+          "start": 139720,
+          "end": 139903,
+          "score": 0.919
+        },
+        {
+          "word": "in",
+          "start": 139963,
+          "end": 140024,
+          "score": 0.968
+        },
+        {
+          "word": "different",
+          "start": 140065,
+          "end": 140288,
+          "score": 0.817
+        },
+        {
+          "word": "locations",
+          "start": 140329,
+          "end": 140755,
+          "score": 0.915
+        },
+        {
+          "word": "on",
+          "start": 140815,
+          "end": 140876,
+          "score": 0.689
+        },
+        {
+          "word": "the",
+          "start": 140897,
+          "end": 140957,
+          "score": 0.426
+        },
+        {
+          "word": "website.",
+          "start": 140998,
+          "end": 141160,
+          "score": 0.127
+        }
+      ]
+    },
+    {
+      "start": 142460,
+      "end": 145240,
+      "text": "But what's really smart about it is that it's interactive.",
+      "words": [
+        {
+          "word": "But",
+          "start": 142460,
+          "end": 143231,
+          "score": 0.324
+        },
+        {
+          "word": "what's",
+          "start": 143251,
+          "end": 143454,
+          "score": 0.963
+        },
+        {
+          "word": "really",
+          "start": 143515,
+          "end": 143739,
+          "score": 0.815
+        },
+        {
+          "word": "smart",
+          "start": 143779,
+          "end": 144002,
+          "score": 0.79
+        },
+        {
+          "word": "about",
+          "start": 144043,
+          "end": 144205,
+          "score": 0.957
+        },
+        {
+          "word": "it",
+          "start": 144246,
+          "end": 144307,
+          "score": 0.74
+        },
+        {
+          "word": "is",
+          "start": 144327,
+          "end": 144510,
+          "score": 0.651
+        },
+        {
+          "word": "that",
+          "start": 144530,
+          "end": 144652,
+          "score": 0.818
+        },
+        {
+          "word": "it's",
+          "start": 144794,
+          "end": 144916,
+          "score": 0.163
+        },
+        {
+          "word": "interactive.",
+          "start": 144936,
+          "end": 145240,
+          "score": 0.259
+        }
+      ]
+    },
+    {
+      "start": 145460,
+      "end": 147300,
+      "text": "So in the case of that.",
+      "words": [
+        {
+          "word": "So",
+          "start": 145460,
+          "end": 145808,
+          "score": 0.795
+        },
+        {
+          "word": "in",
+          "start": 145849,
+          "end": 145930,
+          "score": 0.704
+        },
+        {
+          "word": "the",
+          "start": 145951,
+          "end": 146012,
+          "score": 0.477
+        },
+        {
+          "word": "case",
+          "start": 146073,
+          "end": 146360,
+          "score": 0.906
+        },
+        {
+          "word": "of",
+          "start": 146626,
+          "end": 146728,
+          "score": 0.938
+        },
+        {
+          "word": "that.",
+          "start": 146748,
+          "end": 147300,
+          "score": 0.401
+        }
+      ]
+    },
+    {
+      "start": 147400,
+      "end": 157120,
+      "text": "Let's say analytics, it provides you an ability to opt in, but also opt out and basically change the users previously given consent as well.",
+      "words": [
+        {
+          "word": "Let's",
+          "start": 147400,
+          "end": 147621,
+          "score": 0.341
+        },
+        {
+          "word": "say",
+          "start": 147741,
+          "end": 147862,
+          "score": 0.374
+        },
+        {
+          "word": "analytics,",
+          "start": 147882,
+          "end": 148685,
+          "score": 0.756
+        },
+        {
+          "word": "it",
+          "start": 148705,
+          "end": 148786,
+          "score": 0.77
+        },
+        {
+          "word": "provides",
+          "start": 148886,
+          "end": 149288,
+          "score": 0.582
+        },
+        {
+          "word": "you",
+          "start": 149308,
+          "end": 149368,
+          "score": 0.024
+        },
+        {
+          "word": "an",
+          "start": 149388,
+          "end": 149469,
+          "score": 0.889
+        },
+        {
+          "word": "ability",
+          "start": 149509,
+          "end": 149991,
+          "score": 0.972
+        },
+        {
+          "word": "to",
+          "start": 150051,
+          "end": 150212,
+          "score": 0.989
+        },
+        {
+          "word": "opt",
+          "start": 150392,
+          "end": 150613,
+          "score": 0.496
+        },
+        {
+          "word": "in,",
+          "start": 150633,
+          "end": 150774,
+          "score": 0.824
+        },
+        {
+          "word": "but",
+          "start": 150914,
+          "end": 151015,
+          "score": 0.928
+        },
+        {
+          "word": "also",
+          "start": 151055,
+          "end": 151276,
+          "score": 0.929
+        },
+        {
+          "word": "opt",
+          "start": 151437,
+          "end": 151577,
+          "score": 0.618
+        },
+        {
+          "word": "out",
+          "start": 151798,
+          "end": 152019,
+          "score": 0.676
+        },
+        {
+          "word": "and",
+          "start": 152622,
+          "end": 152702,
+          "score": 0.953
+        },
+        {
+          "word": "basically",
+          "start": 152762,
+          "end": 153224,
+          "score": 0.856
+        },
+        {
+          "word": "change",
+          "start": 153324,
+          "end": 153706,
+          "score": 0.872
+        },
+        {
+          "word": "the",
+          "start": 154228,
+          "end": 154329,
+          "score": 0.981
+        },
+        {
+          "word": "users",
+          "start": 154489,
+          "end": 154871,
+          "score": 0.747
+        },
+        {
+          "word": "previously",
+          "start": 155052,
+          "end": 155554,
+          "score": 0.872
+        },
+        {
+          "word": "given",
+          "start": 155614,
+          "end": 155855,
+          "score": 0.933
+        },
+        {
+          "word": "consent",
+          "start": 155955,
+          "end": 156477,
+          "score": 0.867
+        },
+        {
+          "word": "as",
+          "start": 156919,
+          "end": 156980,
+          "score": 0.853
+        },
+        {
+          "word": "well.",
+          "start": 157020,
+          "end": 157120,
+          "score": 0.361
+        }
+      ]
+    },
+    {
+      "start": 157300,
+      "end": 161160,
+      "text": "And that's something we document inside our back end as well.",
+      "words": [
+        {
+          "word": "And",
+          "start": 157300,
+          "end": 157785,
+          "score": 0.926
+        },
+        {
+          "word": "that's",
+          "start": 157825,
+          "end": 158007,
+          "score": 0.764
+        },
+        {
+          "word": "something",
+          "start": 158048,
+          "end": 158391,
+          "score": 0.958
+        },
+        {
+          "word": "we",
+          "start": 158452,
+          "end": 158593,
+          "score": 0.898
+        },
+        {
+          "word": "document",
+          "start": 158674,
+          "end": 159220,
+          "score": 0.936
+        },
+        {
+          "word": "inside",
+          "start": 159806,
+          "end": 160251,
+          "score": 0.855
+        },
+        {
+          "word": "our",
+          "start": 160291,
+          "end": 160574,
+          "score": 0.66
+        },
+        {
+          "word": "back",
+          "start": 160635,
+          "end": 160837,
+          "score": 0.898
+        },
+        {
+          "word": "end",
+          "start": 160877,
+          "end": 160958,
+          "score": 0.729
+        },
+        {
+          "word": "as",
+          "start": 160999,
+          "end": 161039,
+          "score": 0.001
+        },
+        {
+          "word": "well.",
+          "start": 161059,
+          "end": 161160,
+          "score": 0.277
+        }
+      ]
+    },
+    {
+      "start": 161300,
+      "end": 161663,
+      "text": "Okay.",
+      "words": [
+        {
+          "word": "Okay.",
+          "start": 161300,
+          "end": 161663,
+          "score": 0.248
+        }
+      ]
+    },
+    {
+      "start": 161700,
+      "end": 171400,
+      "text": "So that's a way to communicate additional privacy information, but also to be very transparent and provide the ability to for the user to withdraw consent at a later time.",
+      "words": [
+        {
+          "word": "So",
+          "start": 161700,
+          "end": 162363,
+          "score": 0.866
+        },
+        {
+          "word": "that's",
+          "start": 162403,
+          "end": 162704,
+          "score": 0.755
+        },
+        {
+          "word": "a",
+          "start": 162724,
+          "end": 162744,
+          "score": 0.008
+        },
+        {
+          "word": "way",
+          "start": 162764,
+          "end": 162965,
+          "score": 0.969
+        },
+        {
+          "word": "to",
+          "start": 163025,
+          "end": 163146,
+          "score": 0.837
+        },
+        {
+          "word": "communicate",
+          "start": 163186,
+          "end": 163568,
+          "score": 0.9
+        },
+        {
+          "word": "additional",
+          "start": 163608,
+          "end": 164010,
+          "score": 0.922
+        },
+        {
+          "word": "privacy",
+          "start": 164090,
+          "end": 164451,
+          "score": 0.854
+        },
+        {
+          "word": "information,",
+          "start": 164492,
+          "end": 165034,
+          "score": 0.954
+        },
+        {
+          "word": "but",
+          "start": 165054,
+          "end": 165174,
+          "score": 0.914
+        },
+        {
+          "word": "also",
+          "start": 165255,
+          "end": 165536,
+          "score": 0.986
+        },
+        {
+          "word": "to",
+          "start": 165797,
+          "end": 165877,
+          "score": 0.966
+        },
+        {
+          "word": "be",
+          "start": 165917,
+          "end": 165978,
+          "score": 0.597
+        },
+        {
+          "word": "very",
+          "start": 166038,
+          "end": 166259,
+          "score": 0.924
+        },
+        {
+          "word": "transparent",
+          "start": 166319,
+          "end": 166861,
+          "score": 0.952
+        },
+        {
+          "word": "and",
+          "start": 167243,
+          "end": 167323,
+          "score": 0.708
+        },
+        {
+          "word": "provide",
+          "start": 167404,
+          "end": 167745,
+          "score": 0.93
+        },
+        {
+          "word": "the",
+          "start": 167785,
+          "end": 167845,
+          "score": 0.989
+        },
+        {
+          "word": "ability",
+          "start": 167926,
+          "end": 168388,
+          "score": 0.94
+        },
+        {
+          "word": "to",
+          "start": 168468,
+          "end": 168669,
+          "score": 0.992
+        },
+        {
+          "word": "for",
+          "start": 168870,
+          "end": 168970,
+          "score": 0.992
+        },
+        {
+          "word": "the",
+          "start": 168990,
+          "end": 169050,
+          "score": 0.71
+        },
+        {
+          "word": "user",
+          "start": 169151,
+          "end": 169392,
+          "score": 0.897
+        },
+        {
+          "word": "to",
+          "start": 169432,
+          "end": 169532,
+          "score": 0.938
+        },
+        {
+          "word": "withdraw",
+          "start": 169573,
+          "end": 169914,
+          "score": 0.984
+        },
+        {
+          "word": "consent",
+          "start": 169954,
+          "end": 170436,
+          "score": 0.914
+        },
+        {
+          "word": "at",
+          "start": 170818,
+          "end": 170878,
+          "score": 0.968
+        },
+        {
+          "word": "a",
+          "start": 170938,
+          "end": 170958,
+          "score": 0.92
+        },
+        {
+          "word": "later",
+          "start": 171019,
+          "end": 171260,
+          "score": 0.802
+        },
+        {
+          "word": "time.",
+          "start": 171300,
+          "end": 171400,
+          "score": 0.187
+        }
+      ]
+    },
+    {
+      "start": 171540,
+      "end": 171923,
+      "text": "Okay.",
+      "words": [
+        {
+          "word": "Okay.",
+          "start": 171540,
+          "end": 171923,
+          "score": 0.36
+        }
+      ]
+    },
+    {
+      "start": 171980,
+      "end": 172881,
+      "text": "So very important.",
+      "words": [
+        {
+          "word": "So",
+          "start": 171980,
+          "end": 172420,
+          "score": 0.889
+        },
+        {
+          "word": "very",
+          "start": 172462,
+          "end": 172650,
+          "score": 0.994
+        },
+        {
+          "word": "important.",
+          "start": 172671,
+          "end": 172881,
+          "score": 0.14
+        }
+      ]
+    },
+    {
+      "start": 173280,
+      "end": 175680,
+      "text": "So that is the second point.",
+      "words": [
+        {
+          "word": "So",
+          "start": 173280,
+          "end": 174053,
+          "score": 0.942
+        },
+        {
+          "word": "that",
+          "start": 174256,
+          "end": 174460,
+          "score": 0.89
+        },
+        {
+          "word": "is",
+          "start": 174704,
+          "end": 174846,
+          "score": 0.908
+        },
+        {
+          "word": "the",
+          "start": 174928,
+          "end": 175090,
+          "score": 0.82
+        },
+        {
+          "word": "second",
+          "start": 175314,
+          "end": 175538,
+          "score": 0.413
+        },
+        {
+          "word": "point.",
+          "start": 175558,
+          "end": 175680,
+          "score": 0.168
+        }
+      ]
+    },
+    {
+      "start": 175800,
+      "end": 176084,
+      "text": "Now.",
+      "words": [
+        {
+          "word": "Now.",
+          "start": 175800,
+          "end": 176084,
+          "score": 0.45
+        }
+      ]
+    },
+    {
+      "start": 176060,
+      "end": 180360,
+      "text": "The third point is, do you have evidence of valid consent?",
+      "words": [
+        {
+          "word": "The",
+          "start": 176060,
+          "end": 176484,
+          "score": 0.79
+        },
+        {
+          "word": "third",
+          "start": 176545,
+          "end": 176787,
+          "score": 0.908
+        },
+        {
+          "word": "point",
+          "start": 176868,
+          "end": 177150,
+          "score": 0.956
+        },
+        {
+          "word": "is,",
+          "start": 177332,
+          "end": 177433,
+          "score": 0.917
+        },
+        {
+          "word": "do",
+          "start": 177998,
+          "end": 178180,
+          "score": 0.988
+        },
+        {
+          "word": "you",
+          "start": 178200,
+          "end": 178301,
+          "score": 0.933
+        },
+        {
+          "word": "have",
+          "start": 178362,
+          "end": 178483,
+          "score": 0.75
+        },
+        {
+          "word": "evidence",
+          "start": 178523,
+          "end": 179068,
+          "score": 0.953
+        },
+        {
+          "word": "of",
+          "start": 179270,
+          "end": 179331,
+          "score": 0.966
+        },
+        {
+          "word": "valid",
+          "start": 179593,
+          "end": 179977,
+          "score": 0.971
+        },
+        {
+          "word": "consent?",
+          "start": 180199,
+          "end": 180360,
+          "score": 0.243
+        }
+      ]
+    },
+    {
+      "start": 181140,
+      "end": 184500,
+      "text": "I want to show you how it looks inside the administration panel.",
+      "words": [
+        {
+          "word": "I",
+          "start": 181140,
+          "end": 181504,
+          "score": 0.914
+        },
+        {
+          "word": "want",
+          "start": 181545,
+          "end": 181666,
+          "score": 0.621
+        },
+        {
+          "word": "to",
+          "start": 181707,
+          "end": 181747,
+          "score": 0.495
+        },
+        {
+          "word": "show",
+          "start": 181869,
+          "end": 182051,
+          "score": 0.993
+        },
+        {
+          "word": "you",
+          "start": 182091,
+          "end": 182233,
+          "score": 0.712
+        },
+        {
+          "word": "how",
+          "start": 182274,
+          "end": 182395,
+          "score": 0.874
+        },
+        {
+          "word": "it",
+          "start": 182456,
+          "end": 182496,
+          "score": 0.998
+        },
+        {
+          "word": "looks",
+          "start": 182537,
+          "end": 182759,
+          "score": 0.876
+        },
+        {
+          "word": "inside",
+          "start": 182962,
+          "end": 183427,
+          "score": 0.969
+        },
+        {
+          "word": "the",
+          "start": 183468,
+          "end": 183630,
+          "score": 0.702
+        },
+        {
+          "word": "administration",
+          "start": 183711,
+          "end": 184359,
+          "score": 0.856
+        },
+        {
+          "word": "panel.",
+          "start": 184379,
+          "end": 184500,
+          "score": 0.166
+        }
+      ]
+    },
+    {
+      "start": 184760,
+      "end": 197320,
+      "text": "So if I go to consent tracking and let's say I now press refresh right here, you can then see that I have now declined for analytics right here.",
+      "words": [
+        {
+          "word": "So",
+          "start": 184760,
+          "end": 185001,
+          "score": 0.828
+        },
+        {
+          "word": "if",
+          "start": 185121,
+          "end": 185242,
+          "score": 0.664
+        },
+        {
+          "word": "I",
+          "start": 185262,
+          "end": 185382,
+          "score": 0.644
+        },
+        {
+          "word": "go",
+          "start": 185402,
+          "end": 185563,
+          "score": 0.929
+        },
+        {
+          "word": "to",
+          "start": 185643,
+          "end": 185803,
+          "score": 0.688
+        },
+        {
+          "word": "consent",
+          "start": 185843,
+          "end": 186746,
+          "score": 0.944
+        },
+        {
+          "word": "tracking",
+          "start": 187047,
+          "end": 187489,
+          "score": 0.886
+        },
+        {
+          "word": "and",
+          "start": 188492,
+          "end": 188612,
+          "score": 0.921
+        },
+        {
+          "word": "let's",
+          "start": 188773,
+          "end": 188973,
+          "score": 0.822
+        },
+        {
+          "word": "say",
+          "start": 189014,
+          "end": 189174,
+          "score": 0.97
+        },
+        {
+          "word": "I",
+          "start": 189335,
+          "end": 189415,
+          "score": 0.868
+        },
+        {
+          "word": "now",
+          "start": 189495,
+          "end": 189776,
+          "score": 0.98
+        },
+        {
+          "word": "press",
+          "start": 190378,
+          "end": 190719,
+          "score": 0.934
+        },
+        {
+          "word": "refresh",
+          "start": 190960,
+          "end": 191341,
+          "score": 0.886
+        },
+        {
+          "word": "right",
+          "start": 191381,
+          "end": 191542,
+          "score": 0.842
+        },
+        {
+          "word": "here,",
+          "start": 191582,
+          "end": 191742,
+          "score": 0.889
+        },
+        {
+          "word": "you",
+          "start": 192164,
+          "end": 192244,
+          "score": 0.946
+        },
+        {
+          "word": "can",
+          "start": 192284,
+          "end": 192384,
+          "score": 0.986
+        },
+        {
+          "word": "then",
+          "start": 192424,
+          "end": 192565,
+          "score": 0.937
+        },
+        {
+          "word": "see",
+          "start": 192685,
+          "end": 192886,
+          "score": 0.912
+        },
+        {
+          "word": "that",
+          "start": 192926,
+          "end": 193488,
+          "score": 0.944
+        },
+        {
+          "word": "I",
+          "start": 193709,
+          "end": 193789,
+          "score": 0.996
+        },
+        {
+          "word": "have",
+          "start": 193849,
+          "end": 194050,
+          "score": 0.85
+        },
+        {
+          "word": "now",
+          "start": 194250,
+          "end": 194551,
+          "score": 0.989
+        },
+        {
+          "word": "declined",
+          "start": 194591,
+          "end": 195755,
+          "score": 0.927
+        },
+        {
+          "word": "for",
+          "start": 196096,
+          "end": 196317,
+          "score": 0.926
+        },
+        {
+          "word": "analytics",
+          "start": 196397,
+          "end": 196999,
+          "score": 0.763
+        },
+        {
+          "word": "right",
+          "start": 197059,
+          "end": 197200,
+          "score": 0.656
+        },
+        {
+          "word": "here.",
+          "start": 197220,
+          "end": 197320,
+          "score": 0.291
+        }
+      ]
+    },
+    {
+      "start": 197880,
+      "end": 204620,
+      "text": "So you can basically see that I have declined and we now have a record of the consent in real time.",
+      "words": [
+        {
+          "word": "So",
+          "start": 197880,
+          "end": 198544,
+          "score": 0.954
+        },
+        {
+          "word": "you",
+          "start": 198584,
+          "end": 198665,
+          "score": 0.595
+        },
+        {
+          "word": "can",
+          "start": 198685,
+          "end": 198806,
+          "score": 0.565
+        },
+        {
+          "word": "basically",
+          "start": 198826,
+          "end": 199168,
+          "score": 0.345
+        },
+        {
+          "word": "see",
+          "start": 199188,
+          "end": 199349,
+          "score": 0.657
+        },
+        {
+          "word": "that",
+          "start": 199389,
+          "end": 199510,
+          "score": 0.962
+        },
+        {
+          "word": "I",
+          "start": 199590,
+          "end": 199651,
+          "score": 0.994
+        },
+        {
+          "word": "have",
+          "start": 199691,
+          "end": 199852,
+          "score": 0.946
+        },
+        {
+          "word": "declined",
+          "start": 200294,
+          "end": 200797,
+          "score": 0.888
+        },
+        {
+          "word": "and",
+          "start": 201039,
+          "end": 201160,
+          "score": 0.868
+        },
+        {
+          "word": "we",
+          "start": 201240,
+          "end": 201320,
+          "score": 0.936
+        },
+        {
+          "word": "now",
+          "start": 201381,
+          "end": 201562,
+          "score": 0.992
+        },
+        {
+          "word": "have",
+          "start": 201602,
+          "end": 201823,
+          "score": 0.859
+        },
+        {
+          "word": "a",
+          "start": 201924,
+          "end": 201944,
+          "score": 0.954
+        },
+        {
+          "word": "record",
+          "start": 202025,
+          "end": 202347,
+          "score": 0.94
+        },
+        {
+          "word": "of",
+          "start": 202467,
+          "end": 202548,
+          "score": 0.992
+        },
+        {
+          "word": "the",
+          "start": 202588,
+          "end": 202648,
+          "score": 0.914
+        },
+        {
+          "word": "consent",
+          "start": 202709,
+          "end": 203212,
+          "score": 0.909
+        },
+        {
+          "word": "in",
+          "start": 204097,
+          "end": 204198,
+          "score": 0.681
+        },
+        {
+          "word": "real",
+          "start": 204218,
+          "end": 204459,
+          "score": 0.939
+        },
+        {
+          "word": "time.",
+          "start": 204520,
+          "end": 204620,
+          "score": 0.198
+        }
+      ]
+    },
+    {
+      "start": 204720,
+      "end": 205681,
+      "text": "Uh, document.",
+      "words": [
+        {
+          "word": "Uh,",
+          "start": 204720,
+          "end": 205472,
+          "score": 0.854
+        },
+        {
+          "word": "document.",
+          "start": 205493,
+          "end": 205681,
+          "score": 0.122
+        }
+      ]
+    },
+    {
+      "start": 205780,
+      "end": 206044,
+      "text": "By.",
+      "words": [
+        {
+          "word": "By.",
+          "start": 205780,
+          "end": 206044,
+          "score": 0.478
+        }
+      ]
+    },
+    {
+      "start": 206060,
+      "end": 207181,
+      "text": "Secure privacy as well.",
+      "words": [
+        {
+          "word": "Secure",
+          "start": 206060,
+          "end": 206620,
+          "score": 0.308
+        },
+        {
+          "word": "privacy",
+          "start": 206641,
+          "end": 206994,
+          "score": 0.441
+        },
+        {
+          "word": "as",
+          "start": 207015,
+          "end": 207056,
+          "score": 0.032
+        },
+        {
+          "word": "well.",
+          "start": 207077,
+          "end": 207181,
+          "score": 0.257
+        }
+      ]
+    },
+    {
+      "start": 207280,
+      "end": 217660,
+      "text": "So that's something you have to have in mind when you implement, um, a GDPR, e-privacy or LTPD solution for your websites and your company.",
+      "words": [
+        {
+          "word": "So",
+          "start": 207280,
+          "end": 207782,
+          "score": 0.776
+        },
+        {
+          "word": "that's",
+          "start": 207822,
+          "end": 208003,
+          "score": 0.646
+        },
+        {
+          "word": "something",
+          "start": 208103,
+          "end": 208505,
+          "score": 0.902
+        },
+        {
+          "word": "you",
+          "start": 208525,
+          "end": 209408,
+          "score": 0.561
+        },
+        {
+          "word": "have",
+          "start": 209589,
+          "end": 209770,
+          "score": 0.812
+        },
+        {
+          "word": "to",
+          "start": 209810,
+          "end": 209870,
+          "score": 0.81
+        },
+        {
+          "word": "have",
+          "start": 209910,
+          "end": 210011,
+          "score": 0.943
+        },
+        {
+          "word": "in",
+          "start": 210051,
+          "end": 210111,
+          "score": 0.908
+        },
+        {
+          "word": "mind",
+          "start": 210171,
+          "end": 210553,
+          "score": 0.908
+        },
+        {
+          "word": "when",
+          "start": 210753,
+          "end": 210934,
+          "score": 0.772
+        },
+        {
+          "word": "you",
+          "start": 210994,
+          "end": 211175,
+          "score": 0.941
+        },
+        {
+          "word": "implement,",
+          "start": 211316,
+          "end": 211797,
+          "score": 0.903
+        },
+        {
+          "word": "um,",
+          "start": 212661,
+          "end": 212721,
+          "score": 0.429
+        },
+        {
+          "word": "a",
+          "start": 212882,
+          "end": 213082,
+          "score": 0.692
+        },
+        {
+          "word": "GDPR,",
+          "start": 213203,
+          "end": 213745,
+          "score": 0.688
+        },
+        {
+          "word": "e-privacy",
+          "start": 214046,
+          "end": 214729,
+          "score": 0.923
+        },
+        {
+          "word": "or",
+          "start": 214809,
+          "end": 214889,
+          "score": 0.765
+        },
+        {
+          "word": "LTPD",
+          "start": 215010,
+          "end": 215552,
+          "score": 0.758
+        },
+        {
+          "word": "solution",
+          "start": 215592,
+          "end": 216054,
+          "score": 0.962
+        },
+        {
+          "word": "for",
+          "start": 216094,
+          "end": 216375,
+          "score": 0.964
+        },
+        {
+          "word": "your",
+          "start": 216415,
+          "end": 216516,
+          "score": 0.893
+        },
+        {
+          "word": "websites",
+          "start": 216556,
+          "end": 217078,
+          "score": 0.786
+        },
+        {
+          "word": "and",
+          "start": 217198,
+          "end": 217279,
+          "score": 0.83
+        },
+        {
+          "word": "your",
+          "start": 217299,
+          "end": 217399,
+          "score": 0.85
+        },
+        {
+          "word": "company.",
+          "start": 217459,
+          "end": 217660,
+          "score": 0.351
+        }
+      ]
+    },
+    {
+      "start": 217760,
+      "end": 218103,
+      "text": "Okay.",
+      "words": [
+        {
+          "word": "Okay.",
+          "start": 217760,
+          "end": 218103,
+          "score": 0.299
+        }
+      ]
+    },
+    {
+      "start": 218120,
+      "end": 219920,
+      "text": "So three common mistakes.",
+      "words": [
+        {
+          "word": "So",
+          "start": 218120,
+          "end": 218754,
+          "score": 0.814
+        },
+        {
+          "word": "three",
+          "start": 218795,
+          "end": 219307,
+          "score": 0.836
+        },
+        {
+          "word": "common",
+          "start": 219491,
+          "end": 219716,
+          "score": 0.827
+        },
+        {
+          "word": "mistakes.",
+          "start": 219736,
+          "end": 219920,
+          "score": 0.11
+        }
+      ]
+    },
+    {
+      "start": 220200,
+      "end": 221421,
+      "text": "Uh, I hope it makes sense.",
+      "words": [
+        {
+          "word": "Uh,",
+          "start": 220200,
+          "end": 220759,
+          "score": 0.315
+        },
+        {
+          "word": "I",
+          "start": 220779,
+          "end": 220821,
+          "score": 0.957
+        },
+        {
+          "word": "hope",
+          "start": 220862,
+          "end": 220966,
+          "score": 0.978
+        },
+        {
+          "word": "it",
+          "start": 221028,
+          "end": 221069,
+          "score": 0.918
+        },
+        {
+          "word": "makes",
+          "start": 221090,
+          "end": 221276,
+          "score": 0.635
+        },
+        {
+          "word": "sense.",
+          "start": 221297,
+          "end": 221421,
+          "score": 0.178
+        }
+      ]
+    },
+    {
+      "start": 221560,
+      "end": 223380,
+      "text": "Otherwise, uh, we'd be happy to hear from you.",
+      "words": [
+        {
+          "word": "Otherwise,",
+          "start": 221560,
+          "end": 222419,
+          "score": 0.591
+        },
+        {
+          "word": "uh,",
+          "start": 222440,
+          "end": 222501,
+          "score": 0.66
+        },
+        {
+          "word": "we'd",
+          "start": 222521,
+          "end": 222665,
+          "score": 0.405
+        },
+        {
+          "word": "be",
+          "start": 222705,
+          "end": 222746,
+          "score": 0.094
+        },
+        {
+          "word": "happy",
+          "start": 222767,
+          "end": 222890,
+          "score": 0.416
+        },
+        {
+          "word": "to",
+          "start": 222930,
+          "end": 222992,
+          "score": 0.384
+        },
+        {
+          "word": "hear",
+          "start": 223012,
+          "end": 223094,
+          "score": 0.164
+        },
+        {
+          "word": "from",
+          "start": 223176,
+          "end": 223278,
+          "score": 0.313
+        },
+        {
+          "word": "you.",
+          "start": 223299,
+          "end": 223380,
+          "score": 0.407
+        }
+      ]
+    }
+  ],
+  "language": "en",
+  "aligned": true,
+  "diarized": false
+}
