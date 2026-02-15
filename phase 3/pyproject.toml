@@ -1,0 +1,15 @@
+[project]
+name = "phase3-validation-qa"
+version = "0.1.0"
+description = "Phase 3: Visual validation report and Q&A pair generation"
+requires-python = ">=3.10"
+dependencies = [
+    "Pillow>=10.0.0",
+    "numpy>=1.24.0",
+    "google-genai>=1.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_backend"

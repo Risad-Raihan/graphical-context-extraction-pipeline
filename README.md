@@ -1,251 +1,148 @@
-# Graphical Context Extraction from Tutorial Videos
+# Graphical Context Extraction Pipeline
 
-Extract rich, timestamped training data from tutorial videos for LLM fine-tuning and RAG systems. This is **Phase 1** of the complete pipeline - raw extraction of ASR, scenes, keyframes, and OCR data.
+Automated extraction of multimodal training data from tutorial videos. Captures spoken content, on-screen text, slides, and UI elements for LLM fine-tuning.
 
-## Features
+## Overview
 
-- **Video Download**: YouTube video download with metadata and captions
-- **Media Normalization**: Audio extraction (16kHz WAV) and video normalization
-- **ASR with Word-Level Timestamps**: Whisper large-v3 + WhisperX forced alignment
-- **Scene Detection**: PySceneDetect for identifying slide/screen changes
-- **Smart Keyframe Extraction**: Blur filtering and delta-based sampling
-- **OCR + Layout Parsing**: PaddleOCR for text extraction, LayoutParser for structure
+3-phase pipeline that processes videos and extracts synchronized audio-visual content with 97.8% coverage accuracy.
 
-## Requirements
-
-- Python 3.10+
-- CUDA-capable GPU (recommended for Whisper and PaddleOCR)
-- FFmpeg installed on system
-
-## Installation
-
-1. Install system dependencies:
-
-```bash
-# Ubuntu/Debian
-sudo apt-get update
-sudo apt-get install ffmpeg
-
-# macOS
-brew install ffmpeg
-```
-
-2. Install Python dependencies:
-
-```bash
-pip install -e .
-```
-
-Or using requirements.txt:
-
-```bash
-pip install -r requirements.txt
-```
+**Pipeline:** Video → Raw Extraction → Alignment & Chunking → Validation & Q&A Generation
 
 ## Quick Start
 
-Process a single video:
-
 ```bash
-python -m src.pipeline "https://www.youtube.com/watch?v=XNQTWZ87K4I"
+# Phase 1: Extract raw data (GPU recommended)
+cd "phase 1"
+python run.py https://www.youtube.com/watch?v=VIDEO_ID
+
+# Phase 2: Align and chunk data
+cd "../phase 2"
+python run.py VIDEO_ID
+
+# Phase 3: Validate and generate Q&A pairs
+cd "../phase 3"
+pip install -r requirements.txt
+python run.py VIDEO_ID
 ```
 
-Or use the Python API:
+## Pipeline Architecture
 
-```python
-from src.pipeline import run_pipeline
+### Phase 1: Raw Extraction (GPU-Accelerated)
+- **ASR**: Whisper large-v3 for speech transcription
+- **OCR**: EasyOCR for text extraction from frames
+- **Scene Detection**: PySceneDetect for visual boundaries
+- **Keyframe Extraction**: Smart sampling with blur filtering
 
-result = run_pipeline("https://www.youtube.com/watch?v=XNQTWZ87K4I")
-print(f"Output saved to: {result['output_dir']}")
-```
+**Output:** 53 ASR segments, 18 keyframes, 486 OCR blocks
 
-## Output Structure
+### Phase 2: Alignment & Enrichment
+- **Timeline Building**: Unified temporal spine
+- **Hierarchical Chunking**: Chapter → Scene → Segments
+- **OCR Cleanup**: Remove UI chrome and duplicates
+- **Embeddings**: Text (sentence-transformers) + Image (OpenCLIP)
+- **Storage**: Qdrant vector database
 
-After processing, each video gets its own directory:
+**Output:** 9 multimodal chunks with embeddings
 
-```
-data/raw/{video_id}/
-  source/
-    video.mp4           # Original downloaded video
-    metadata.json       # Video metadata (title, duration, chapters, etc.)
-    captions_en.vtt     # Captions (if available)
-  normalized/
-    audio.wav           # 16kHz mono audio for ASR
-    video.mp4           # Normalized video (constant framerate)
-  keyframes/
-    frame_00000.jpg     # Extracted keyframes
-    frame_00001.jpg
-    ...
-  asr.json             # ASR transcript with word-level timestamps
-  transcript.txt       # Human-readable transcript
-  scenes.json          # Scene boundaries
-  keyframes.json       # Keyframe metadata (timestamps, blur scores)
-  ocr.json             # OCR results per keyframe
-```
+### Phase 3: Validation & Q&A Generation
+- **Visual Validation**: OCR overlays on keyframes (color-coded by confidence)
+- **Coverage Analysis**: Timeline gaps and quality flags
+- **HTML Report**: Self-contained report with embedded images
+- **Q&A Generation**: Gemini-based training pair creation
 
-## Configuration
+**Output:** HTML/PDF report, 35 Q&A pairs, 97.8% coverage
 
-Customize processing via `ModelConfig`:
+## Sample Q&A Pairs Generated
 
-```python
-from pathlib import Path
-from src.config import PipelineConfig, ModelConfig
-from src.pipeline import VideoPipeline
-
-model_config = ModelConfig(
-    whisper_model="large-v3",         # or "medium", "small"
-    whisper_device="cuda",             # or "cpu"
-    scene_threshold=27.0,              # Lower = more sensitive
-    blur_threshold=100.0,              # Higher = sharper frames only
-    ocr_lang="en",                     # or "ch", "fr", etc.
-    layout_model="lp://PubLayNet/faster_rcnn_R_50_FPN_3x/config"
-)
-
-config = PipelineConfig(
-    video_url="https://www.youtube.com/watch?v=XNQTWZ87K4I",
-    model_config=model_config,
-    skip_existing=True
-)
-
-pipeline = VideoPipeline(config)
-result = pipeline.run()
-```
-
-## Output Formats
-
-### ASR (asr.json)
-
+**Example 1:**
 ```json
 {
-  "segments": [
-    {
-      "start": 0,
-      "end": 3500,
-      "text": "Welcome to this GDPR tutorial",
-      "words": [
-        {"word": "Welcome", "start": 0, "end": 500, "probability": 0.98}
-      ]
-    }
-  ],
-  "language": "en",
-  "aligned": true
+  "question": "What is the first common mistake listed regarding cookie banners?",
+  "answer": "Having a banner that does not block cookies before explicit consent is given.",
+  "evidence_type": "both"
 }
 ```
 
-### Scenes (scenes.json)
-
+**Example 2:**
 ```json
 {
-  "scenes": [
-    {
-      "scene_id": 0,
-      "start_ms": 0,
-      "end_ms": 5230,
-      "duration_ms": 5230
-    }
-  ]
+  "question": "According to the slide shown, what is the second question related to common mistakes?",
+  "answer": "Have you made it easy to withdraw consent?",
+  "evidence_type": "visual"
 }
 ```
 
-### Keyframes (keyframes.json)
-
+**Example 3:**
 ```json
 {
-  "keyframes": [
-    {
-      "frame_id": 0,
-      "scene_id": 0,
-      "timestamp_ms": 1200,
-      "filename": "frame_00000.jpg",
-      "blur_score": 342.5,
-      "width": 1920,
-      "height": 1080
-    }
-  ]
+  "question": "Which specific regulations are listed under the solution description on screen?",
+  "answer": "GDPR, CCPA, and LGPD.",
+  "evidence_type": "visual"
 }
 ```
 
-### OCR (ocr.json)
+## Key Features
 
-```json
-{
-  "results": [
-    {
-      "frame_id": 0,
-      "timestamp_ms": 1200,
-      "text_blocks": [
-        {
-          "text": "Article 6 - Lawful Basis",
-          "bbox": [100, 50, 800, 120],
-          "confidence": 0.95
-        }
-      ],
-      "layout_regions": [
-        {
-          "type": "Title",
-          "bbox": [50, 40, 850, 130],
-          "confidence": 0.92
-        }
-      ],
-      "full_text": "Article 6 - Lawful Basis for Processing..."
-    }
-  ]
-}
+✅ **Multimodal Extraction**: Captures spoken words + on-screen text + visual layout  
+✅ **Temporal Alignment**: Synchronizes all data streams on millisecond timeline  
+✅ **Smart Chunking**: Hierarchical organization (Chapter → Scene → Segment)  
+✅ **Visual Validation**: HTML report with OCR overlays proves extraction quality  
+✅ **Training Ready**: Q&A pairs in JSONL format for fine-tuning  
+✅ **Vector Search**: Embeddings stored in Qdrant for semantic retrieval
+
+## Results
+
+| Metric | Value |
+|--------|-------|
+| Extraction Coverage | 97.8% |
+| Keyframes Extracted | 18 |
+| OCR Text Blocks | 486 |
+| ASR Segments | 53 |
+| Multimodal Chunks | 9 |
+| Q&A Pairs Generated | 35 |
+| Quality Issues | 0 |
+
+## Project Structure
+
+```
+├── phase 1/              # Raw extraction (ASR, OCR, scenes, keyframes)
+│   ├── run.py
+│   └── XNQTWZ87K4I/     # Video outputs
+├── phase 2/              # Alignment, chunking, embeddings
+│   ├── run.py
+│   └── output/
+├── phase 3/              # Validation report & Q&A generation
+│   ├── run.py
+│   └── output/
+│       └── XNQTWZ87K4I/
+│           ├── report.html
+│           ├── report.pdf
+│           └── qa_pairs.jsonl
+└── EXECUTIVE_SUMMARY.pdf
 ```
 
-## GPU Usage
+## Tech Stack
 
-The pipeline automatically uses GPU if available:
+- **ASR**: faster-whisper (OpenAI Whisper large-v3)
+- **OCR**: EasyOCR (GPU-accelerated)
+- **Scene Detection**: PySceneDetect
+- **Embeddings**: sentence-transformers, OpenCLIP
+- **Vector DB**: Qdrant (cloud)
+- **Q&A Generation**: Google Gemini 3 Pro
+- **Infrastructure**: vast.ai (GPU), local (CPU)
 
-- **Whisper**: CUDA via faster-whisper (CTranslate2)
-- **WhisperX**: CUDA for alignment and diarization
-- **PaddleOCR**: PaddlePaddle GPU support
-- **LayoutParser**: Detectron2 CUDA support
+## Dependencies
 
-To force CPU-only:
+Each phase has its own `requirements.txt`. Install per phase as needed.
 
-```python
-model_config = ModelConfig(
-    whisper_device="cpu",
-    ocr_use_gpu=False
-)
-```
+## Documentation
 
-## Performance Tips
-
-1. **Use GPU**: 10-50x faster for ASR and OCR
-2. **Adjust scene threshold**: Lower values detect more scenes (more keyframes)
-3. **Skip existing outputs**: Set `skip_existing=True` to resume interrupted runs
-4. **Batch processing**: Process multiple videos in parallel
-
-## What's Next?
-
-This is Phase 1 (raw extraction). Future phases:
-
-- **Phase 2**: Temporal alignment, hierarchical chunking, privacy/redaction, vector DB storage
-- **Phase 3**: RAG pipeline, fine-tuning export, validation metrics
-
-## Troubleshooting
-
-### WhisperX alignment fails
-
-WhisperX requires additional dependencies for some languages. The pipeline will fall back to base Whisper timestamps if alignment fails.
-
-### LayoutParser not available
-
-LayoutParser is optional. If it fails to install, the pipeline will skip layout detection and only use OCR.
-
-### CUDA out of memory
-
-Reduce batch size or use a smaller Whisper model:
-
-```python
-model_config = ModelConfig(
-    whisper_model="medium",  # instead of large-v3
-    whisperx_batch_size=8    # instead of 16
-)
-```
+- **Phase 1**: See `phase 1/README.md` and `phase 1/IMPLEMENTATION_SUMMARY.md`
+- **Phase 2**: See `phase 2/README.md` and `phase 2/IMPLEMENTATION_SUMMARY.md`
+- **Phase 3**: See `phase 3/README.md` and `phase 3/IMPLEMENTATION_SUMMARY.md`
+- **Executive Summary**: See `EXECUTIVE_SUMMARY.pdf`
+- **Technical Validation**: See `phase 3/output/XNQTWZ87K4I/report.pdf`
 
 ## License
 
-This project is for research and educational purposes. Ensure you have the rights to process any videos you download.
+Research and educational purposes.
