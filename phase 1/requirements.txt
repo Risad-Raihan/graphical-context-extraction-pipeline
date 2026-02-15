@@ -1,0 +1,24 @@
+# Core dependencies
+yt-dlp>=2024.0.0
+ffmpeg-python>=0.2.0
+
+# ASR and audio processing
+faster-whisper>=1.0.0
+whisperx>=3.1.1
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# Video processing
+scenedetect[opencv]>=0.6.3
+opencv-python>=4.8.0
+
+# OCR and layout parsing
+paddleocr>=2.7.0
+paddlepaddle-gpu>=2.6.0
+layoutparser[layoutmodels,effdet]>=0.3.4
+torchvision>=0.16.0
+
+# Utilities
+Pillow>=10.0.0
+numpy>=1.24.0
+python-dotenv>=1.0.0

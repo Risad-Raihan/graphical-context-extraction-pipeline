@@ -1,0 +1,29 @@
+[project]
+name = "graphical-context-extraction"
+version = "0.1.0"
+description = "Extract rich, timestamped training data from tutorial videos"
+requires-python = ">=3.10"
+dependencies = [
+    "yt-dlp>=2024.0.0",
+    "ffmpeg-python>=0.2.0",
+    "faster-whisper>=1.0.0",
+    "whisperx>=3.1.1",
+    "scenedetect[opencv]>=0.6.3",
+    "paddleocr>=2.7.0",
+    "paddlepaddle-gpu>=2.6.0",
+    "layoutparser[layoutmodels,effdet]>=0.3.4",
+    "torch>=2.1.0",
+    "torchaudio>=2.1.0",
+    "torchvision>=0.16.0",
+    "opencv-python>=4.8.0",
+    "Pillow>=10.0.0",
+    "numpy>=1.24.0",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["src"]
